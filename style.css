@@ -6,12 +6,23 @@
     color: white;
 }
 body{
-    background: #a6a6a6;
+    background: linear-gradient(135deg, #5e81c9, #7617ae);
+    
 }
 .btn{
     font-size: 25px;
-    background-color: #027cb5;
-    padding: 5px;
+    background-color: #9212bc;
+    padding: 10px 20px;
     border-radius: 15px;
     border: none;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    background: #550373;
+    color: #fff;
+}
+.heading{
+    font-size: 75px;
+    align-items: center;
+    margin-bottom: 40px;
 }

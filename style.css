@@ -5,13 +5,14 @@
     box-sizing: border-box;
     color: white;
 }
-body{
-    background: linear-gradient(135deg, #5e81c9, #7617ae);
-    
+.container{
+    background: linear-gradient(135deg, #764BA2 , #667EEA);
+    width: 100%;
+    min-height: 100vh;
 }
 .btn{
     font-size: 25px;
-    background-color: #9212bc;
+    background-color: #68317b;
     padding: 10px 20px;
     border-radius: 15px;
     border: none;
@@ -20,6 +21,7 @@ body{
 .btn:hover{
     background: #550373;
     color: #fff;
+    cursor: pointer;
 }
 .heading{
     font-size: 75px;
